@@ -1,0 +1,74 @@
+/* TODO: design your profile with CSS */
+/* import google font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24px;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #337357;
+}
+
+a {
+  text-decoration: none;
+  color: #1985A1;
+}
+
+a:hover {
+  color: #125d71;
+  text-decoration: underline;
+}
+
+div {
+  background-color: #d6d2d2;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 24px auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 960px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 64px;
+  margin: 0 16px;
+}
+
+.btn-blue {
+  background-color: #1985A1;
+  color: white;
+  padding: 24px 16px;
+  margin: 16px auto;
+  display: block;
+  width: 240px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #125d71;
+  color: white;
+  text-decoration: none;
+}
+
+.img-circle {
+  width: 160px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
