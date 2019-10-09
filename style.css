@@ -1,0 +1,57 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Merriweather:700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: rgb(230,230,230);
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+div {
+  background: white;                         
+  padding: 30px;                             
+  border-radius: 4px;                        
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 30px auto; 
+  width: 50%;
+  text-align: center;
+}
+
+.fab {
+  font-size: 48px;
+  color: black;
+}
+
+.fab:hover {
+  color: rgb(100,100,100);
+}
+
+#btn-blue {
+  text-decoration: none;
+  background-color: #6B72E1;
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: white;
+}
+
+#btn-blue:hover {
+  background-color: black;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+
